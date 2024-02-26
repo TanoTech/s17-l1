@@ -4,11 +4,11 @@ using s17_l1.Models;
 
 namespace s17_l1.Controllers;
 
-public class EmployeesController : Controller
+public class PaymentController : Controller
 {
-    private readonly ILogger<EmployeesController> _logger;
+    private readonly ILogger<PaymentController> _logger;
 
-    public EmployeesController(ILogger<EmployeesController> logger)
+    public PaymentController(ILogger<PaymentController> logger)
     {
         _logger = logger;
     }
